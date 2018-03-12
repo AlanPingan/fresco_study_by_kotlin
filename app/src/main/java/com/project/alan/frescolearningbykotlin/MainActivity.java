@@ -11,6 +11,7 @@ import com.facebook.imagepipeline.request.ImageRequest;
 import com.facebook.imagepipeline.request.ImageRequestBuilder;
 
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -55,14 +56,19 @@ public class MainActivity extends AppCompatActivity {
                 .build();
     }
 
+    /**
+     * hierarchy是控制层次结构的的
+     * @return
+     */
     private GenericDraweeHierarchy getHierarchy() {
         GenericDraweeHierarchy hierarchy = new GenericDraweeHierarchyBuilder(getResources())
                 //设置view的圆角属性
                 .setRoundingParams(new RoundingParams().setRoundAsCircle(true)
                         //设置图片的外面的border，颜色和宽度
                         .setBorder(Color.GREEN, 7))
-                //设置图片还没有加载出来的占为图片
+                //设置图片还没有加载出来的占位图片
                 .setPlaceholderImage(getResources().getDrawable(R.mipmap.ic_launcher))
+                .setBackground(new ColorDrawable(getResources().getColor(R.color.colorAccent)))
                 .build();
         return hierarchy;
     }
