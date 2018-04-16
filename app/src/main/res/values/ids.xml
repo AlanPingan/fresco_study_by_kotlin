@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--NumberFastAddFactory中做动画所用id-->
+    <item name="lg_value_text_value" type="id"></item>
+    <item name="current_number" type="id"></item>
+    <item name="start_number" type="id"></item>
+    <item name="end_number" type="id"></item>
+    <item name="current_anim" type="id"></item>
+</resources>

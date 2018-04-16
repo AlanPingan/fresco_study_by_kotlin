@@ -1,5 +1,7 @@
 package com.project.alan.frescolearningbykotlin;
 
+import com.project.alan.frescolearningbykotlin.kotlin.kotlin_pollicy.PolicyTest;
+
 import org.junit.Test;
 
 import java.text.SimpleDateFormat;
@@ -38,9 +40,7 @@ public class ExampleUnitTest {
 
 
     @Test
-    public void getCountDownTime() {
-       Timer  timer = new Timer();
-
-
+    public void gethahaha() {
+        PolicyTest.test();
     }
 }

@@ -19,4 +19,6 @@ public class StaticInternalClassSingleton {
     private static class StaticInternalClassSingletonHolder {
         private static final StaticInternalClassSingleton instance = new StaticInternalClassSingleton();
     }
+
+
 }
