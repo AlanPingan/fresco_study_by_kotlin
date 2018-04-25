@@ -1,4 +1,4 @@
-package com.project.alan.frescolearningbykotlin;
+package com.project.alan.frescolearningbykotlin.fresco;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.generic.GenericDraweeHierarchy;
@@ -9,6 +9,7 @@ import com.facebook.drawee.view.SimpleDraweeView;
 import com.facebook.imagepipeline.postprocessors.IterativeBoxBlurPostProcessor;
 import com.facebook.imagepipeline.request.ImageRequest;
 import com.facebook.imagepipeline.request.ImageRequestBuilder;
+import com.project.alan.frescolearningbykotlin.R;
 
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
