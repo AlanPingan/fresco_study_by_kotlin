@@ -11,7 +11,7 @@ public class StaticInternalClassSingleton {
     private StaticInternalClassSingleton() {
     }
 
-    public StaticInternalClassSingleton getInstance() {
+    public static StaticInternalClassSingleton getInstance() {
         return StaticInternalClassSingletonHolder.instance;
     }
 

@@ -6,13 +6,13 @@ package com.project.alan.frescolearningbykotlin.kotlin.kotlin_operaional_charact
  */
 
 
-class OperationalCharacter {
+class NumberOperationalCharacter {
     //any 有任意一个元素满足条件就返回true否则返回为false
     fun useAny(): Boolean {
         return valueList.any { it % 2 == 1 }
     }
 
-    //all 当所有的元素满足条件时返回true否则返回false
+        //all 当所有的元素满足条件时返回true否则返回false
     fun useAll(): Boolean {
         return valueList.all { it > 0 }
     }
