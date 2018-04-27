@@ -19,6 +19,7 @@
         </activity>
         <activity android:name=".fresco.FrescoUseActivity"></activity>
         <activity android:name=".UIUtils.FastAddNumberActivity"></activity>
+        <activity android:name=".scorll.ScrollActivity"></activity>
     </application>
 
 </manifest>

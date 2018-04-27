@@ -8,6 +8,7 @@ import android.view.View
 import android.widget.TextView
 import com.project.alan.frescolearningbykotlin.R
 import com.project.alan.frescolearningbykotlin.fresco.FrescoUseActivity
+import com.project.alan.frescolearningbykotlin.scorll.ScrollActivity
 
 /**
  * Created by Alan on 2018/4/17.
@@ -24,9 +25,12 @@ class UITestActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-
     fun fastAddNumber(view: View) {
         var intent = Intent(this, FastAddNumberActivity::class.java)
+        startActivity(intent)
+    }
+    fun scroll(view: View) {
+        var intent = Intent(this, ScrollActivity::class.java)
         startActivity(intent)
     }
 }

@@ -18,4 +18,11 @@
         android:layout_gravity="center_horizontal"
         android:onClick="fastAddNumber"
         android:text="fastAddNumber" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="scroll"
+        android:text="fastAddNumber" />
 </LinearLayout>
