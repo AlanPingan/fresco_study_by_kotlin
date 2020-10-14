@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.activity_fast_add_number.*
 /**
  * Created by Alan on 2018/4/17.
  */
-class FastAddNumberActivity : AppCompatActivity() {
+class VerifyNumberActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fast_add_number)

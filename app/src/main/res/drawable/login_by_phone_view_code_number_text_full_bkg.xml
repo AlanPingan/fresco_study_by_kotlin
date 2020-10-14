@@ -3,7 +3,7 @@
 
     <stroke
         android:width="@dimen/width_2_dp"
-        android:color="@color/white"></stroke>
+        android:color="@color/colorWhite"></stroke>
 
     <corners android:radius="@dimen/login_by_phone_view_code_number_text_radius"></corners>
 </shape>

@@ -1,9 +1,11 @@
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'//启用扩展支持直接使用ID
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+}
 android {
     compileSdkVersion 26
-    buildToolsVersion "27.0.2"
+    buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "com.project.alan.frescolearningbykotlin"
         minSdkVersion 15
@@ -37,21 +39,22 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    compile 'com.facebook.fresco:fresco:0.14.1'
+    implementation 'com.facebook.fresco:fresco:0.14.1'
     // 在 API < 14 上的机器支持 WebP 时，需要添加
-    compile 'com.facebook.fresco:animated-base-support:0.12.0'
+    implementation 'com.facebook.fresco:animated-base-support:0.12.0'
 
     // 支持 GIF 动图，需要添加
-    compile 'com.facebook.fresco:animated-gif:0.12.0'
+    implementation 'com.facebook.fresco:animated-gif:0.12.0'
 
     // 支持 WebP （静态图+动图），需要添加
-    compile 'com.facebook.fresco:animated-webp:0.12.0'
-    compile 'com.facebook.fresco:webpsupport:0.12.0'
+    implementation 'com.facebook.fresco:animated-webp:0.12.0'
+    implementation 'com.facebook.fresco:webpsupport:0.12.0'
 
     // 仅支持 WebP 静态图，需要添加
-    compile 'com.facebook.fresco:webpsupport:0.12.0'
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'com.facebook.fresco:webpsupport:0.12.0'
+
+//    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
 repositories {
     mavenCentral()

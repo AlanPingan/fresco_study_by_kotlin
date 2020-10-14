@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_by_phone_view_code_number_text_radius">6dp</dimen>
+    <dimen name="width_2_dp">2dp</dimen>
+</resources>
