@@ -94,6 +94,13 @@ public class FlowLayout extends ViewGroup {
             lineViews.add(childView);
             lineWidthUsed = lineWidthUsed + childMeasureWidth + mHorizontalSpacing;
             lineHeight = Math.max(lineHeight, childMeasureHeight);
+            //最后一行处理
+            if (i == childCount - 1 && lineWidthUsed <= selfWidth) {
+                allLines.add(lineViews);
+                lineHeights.add(lineHeight);
+                parentNeedHeight = lineHeight + parentNeedHeight + mVerticalSpacing;
+                parentNeedWidth = Math.max(parentNeedWidth, lineWidthUsed);
+            }
         }
         //根据子view的度量结果，来重新度量自己viewgroup
         //作为一个viewgroup，它自己也是一个view，它的大小也需要根据父亲给它提供的高宽来度量

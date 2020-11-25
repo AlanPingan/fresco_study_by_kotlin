@@ -36,6 +36,22 @@
         android:padding="10dp"
         android:text="handlerPractice" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="showFish"
+        android:padding="10dp"
+        android:text="showFish" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="testNetWork"
+        android:padding="10dp"
+        android:text="showFish" />
+
 
 
     <com.project.alan.frescolearningbykotlin.UIUtils.view.FlowLayout

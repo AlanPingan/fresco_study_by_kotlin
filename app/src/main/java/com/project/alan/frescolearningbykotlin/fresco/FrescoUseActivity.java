@@ -18,7 +18,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 public class FrescoUseActivity extends AppCompatActivity {
-
+ 
     private SimpleDraweeView simpleDraweeView;
 
     @Override

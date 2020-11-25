@@ -21,6 +21,7 @@
         <activity android:name=".UIUtils.FastAddNumberActivity"></activity>
         <activity android:name=".scorll.ScrollActivity"></activity>
         <activity android:name=".UIUtils.HandlerPracticeActivity"></activity>
+        <activity android:name=".UIUtils.FishActivity"></activity>
     </application>
 
 </manifest>

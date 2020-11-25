@@ -48,4 +48,14 @@ class UITestActivity : AppCompatActivity() {
         var intent = Intent(this, HandlerPracticeActivity::class.java)
         startActivity(intent)
     }
+
+    fun showFish(view: View) {
+        var intent = Intent(this, FishActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun testNetWork(view: View) {
+        var intent = Intent(this, FishActivity::class.java)
+        startActivity(intent)
+    }
 }
